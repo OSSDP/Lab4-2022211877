@@ -19,7 +19,7 @@ public class L2022211877_7_Test {
         // 用到的测试用例：s = "dcab", pairs = [[0,3],[1,2]]
         Solution7 solution = new Solution7();
         String result = solution.smallestStringWithSwaps("dcab", Arrays.asList(Arrays.asList(0, 3), Arrays.asList(1, 2)));
-        Assertions.assertEquals("bacd", result);
+        Assertions.assertEquals("bacd error test", result);
     }
 
     @Test
